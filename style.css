@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+.navbar ul li{
+	font-family: Times New Roman;
+	font-size: 16px;
+	font-weight:  bold;	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px;
+	border-radius: 20px;
+}
+#home{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 840px;
+	justify-content: center;
+	align-itmes: center;
+	color: white;
+}
+#home::before{
+	content: "";
+	position: absolute;
+	top: 10;
+	right: 0;
+	background:url(background.jpgjpg) no-repeat center center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: .8; 
+	
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	positon: absolute;
+	top: 40%;
+	right: 10%;
+}
+.headings{
+	font-family:  "Courier New", Courier, monospace;
+	font-size: 50px;
+	text-align: center;
+	margin: 40px 0px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+.btn{
+	padding: 10px 35px;
+	background-color: rgb(237,219,255);
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px 5px #000000;
+	
+}
+.btn:hover{
+	cursor: pointer;
+	color: rgb(255,111,82);
+}
+.menuBtn{
+	  position: absolute;
+	  top: 30px;
+	  right: 30px;
+	  width: 40px;
+	  cursor: pointer;
+	  display: none;
+	}
+#about{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 90px;
+	background-color: rgb(107,112,255);
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+#image{
+	display: flex;
+	text-align: center;
+}
+#image img{
+	width: 575px;
+	height: 300px;
+	box-shadow: 5px 5px 15px 5px #000000;
+	border-radius: 20px;
+	max-width: 60vw;
+}
+#about{
+	display: flex;
+	flex-direction: column;	
+	text-align: justify;
+	padding: 20px;
+	
+	
+}
+#about h2{
+	font-size: 30px;
+	margin-bottom: 90px;
+	padding: 10px;
+	text-align: center;
+	flex-direction: column;
+		
+}
+#about h4{
+	font-family:  "Courier New", Courier, monospace;
+	font-size: 25px;
+	margin-bottom: 90px;
+	padding: 20px;
+	text-align: center;
+	flex-direction: column;
+
+}
+#pic img{
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	box-shadow: 5px 5px 15px 5px #000000;
+	border-radius: 20px;
+	flex-direction: column;
+	display: flex;
+	align-items: flex-start;
+	max-width: 60vw;
+	
+}
+#pic h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding: 30px;
+	font-family:  "Courier New", Courier, monospace;
+}
+#hobbies{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 107px;
+	background-color: rgb(107,112,255);
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+#hobbies pictures{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: flex-start;
+	flex-direction: row;
+}
+#hobbies pictures img{
+	width: 50px;
+	height: 200px;
+	margin: 10px;
+	max-width: 23vw;
+	box-shadow: 5px 5px 15px 5px #000000;
+	border-radius: 20px;
+	flex-direction: column;
+	display: flex;
+	align-items: flex-start;
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 540px;
+	background-color: rgb(107,112,255);
+	box-shadow: 5px 5px 15px 5px #000000;
+	text-align: center;
+}
